@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOX</title>
+    <script src="button.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="bs1.css" />
+    <link rel="stylesheet" href="Box.css" />
+    <link rel="stylesheet" href="bella.css" />
+    <link rel="stylesheet" href="nevi.css" />
+
+    <script>
+      function myFunction() {
+          document.getElementById("document.myform.uname").autofocus = true;  
+      }
+    </script>
+
+  </head>
+  <body id="box-id">
+    <div class="container-fluid sticky-top">
+      <div
+        class="row justify-content-center align-items-center text-light bg-dark"
+      >
+        <div class="col-12"><a href="bella.html">home</a></div>
+     
+      </div>
+    </div>
+<audio src="Professor ! Money Heist ! Mobile Tone.mp3" autoplay="true"></audio>
+    <h1
+      id="h1"
+      style="background-color: red; font-size: 25px"
+      class="text-center text-light"
+    >
+      Sign-up
+    </h1>
+
+    <form name="myform" action="loginpg.html" onsubmit="return combo();"><!--return validate()-->
+      <div class="container ">
+        <div
+          class="row align-items-center justify-content-center p-4"
+          style="  background-color: rgba(207, 140, 140, 0.9);position: absolute;top:50%;left: 50%;transform: translate(-50%,-50%);"
+        >
+        <h1><marquee style="color: white;">Registration form for new members!</marquee></h1>
+        <br>
+       <input
+        type="text"
+        id="first"
+        placeholder="First Name"
+        class="form col-12 col-md-6 p-2 mb-2 "
+        required
+      />
+      <input
+        type="text"
+        placeholder="Last Name"
+        id="last"
+        class="form col-12 col-md-6 p-2 mb-2"
+        required
+      />
+      
+ 
+      <input
+        type="text"
+        id='txtEmail'
+        placeholder="Email-Address"
+        pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"
+        class="form col-12 p-2 mb-2"
+        required
+      />
+      <input type="text"  class="form col-12 p-2 mb-2"
+       name="mobile" pattern="[1-9]{1}[0-9]{9}" title="Enter 10 digit mobile number" placeholder="Mobile number" required>
+      
+    
+
+      <!--<input type="text"id="pass"placeholder="Password received on your email"class="form col-12 p-2 mb-2" disabled>-->
+      
+
+      
+
+    <button type="submit"class="but1" onclick="return validate()" >submit</button>
+
+    <div style="color: blue;margin-top: 5px;font-size: 20px;">already a member? click Log In button>><span><button class="but1" onclick="window.location.href='loginpg.html';">Log In</button></span></div>
+    
+    
+  </div>
+</div>
+</div>
+</form>
+
+<script src="1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,226 @@
+html {
+  margin: 0px;
+}
+body {
+  margin: 0px;
+  background: rgb(5, 5, 5);
+  height: 100vh;
+  top: 0px;
+}
+#b1 {
+  height: 100%;
+}
+a div#f1.float:hover {
+  background-color: red;
+}
+#bz {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("cash.jpg");
+  height: 100vh;
+}
+
+a:hover {
+  background-color: red;
+}
+
+section#s1 {
+  background-color: red;
+  height: 8%;
+  width: 100%;
+}
+.today {
+  display: flex;
+}
+.float {
+  background-color: white;
+  background-image: url("mask.jpg");
+  border-radius: 30px;
+  width: 18%;
+  margin: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 250px;
+  float: left;
+  background-size: cover;
+  border: 5px solid white;
+
+  padding: 10px;
+  justify-content: center;
+}
+#f1 {
+  background-image: url("final1.jpg");
+  background-size: contain;
+  object-fit: cover;
+
+  background-color: black;
+}
+#f2 {
+  background-image: url("final2.jpg");
+  background-size: inherit;
+}
+#f3 {
+  background-image: url("final3.jpg");
+  background-size: contain;
+  object-fit: cover;
+}
+#f4 {
+  background-image: url("final4.jpg");
+  background-size: contain;
+}
+#f5 {
+  background-image: url("final5.jpg");
+  background-size: contain;
+}
+
+#h1 {
+  background: red;
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+}
+#form1 {
+  background: red;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  height: 60px;
+}
+#z1 {
+  background: red;
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  height: 60px;
+}
+.my2 {
+  font-size: x-large;
+  margin-top: 0px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+}
+div {
+  color: white;
+  margin: 0px;
+
+  text-align: center;
+}
+.img1 {
+  border: 5px solid white;
+  margin: 0px;
+  width: 15vw;
+  margin-top: 1%;
+}
+section {
+  margin-top: 1%;
+  height: 50px;
+
+  font-family: cursive;
+  display: flex;
+  justify-content: space-around;
+}
+#mod2 {
+  height: 7vh;
+  justify-content: center;
+  align-items: left;
+}
+#mod1 {
+  background-color: red;
+  font-size: large;
+  display: inline-block;
+  padding: 2px;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.p {
+  margin: 0px;
+  color: white;
+  width: 83vw;
+  font-size: large;
+  float: right;
+  margin-top: 1%;
+}
+#modbut {
+  border-radius: 16px;
+  color: brown;
+  height: 5vh;
+  outline: blue;
+}
+.but1 {
+  align-self: center;
+  height: 40px;
+  padding: 4px;
+  width: 150px;
+  height: 50px;
+  border-radius: 16px;
+  background: white;
+  font-family: cursive;
+  font-size: x-large;
+  color: brown;
+  margin-top: 20px;
+}
+.but1:hover {
+  background-color: rgb(216, 199, 199);
+  border: 3px gold solid;
+  color: red;
+}
+
+.t1 {
+  margin-bottom: 10px;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 25px;
+  align-self: center;
+  background-color: white;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+#d {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("mask.jpg");
+  margin: 0px;
+}
+
+.s10 {
+  background: red;
+  padding: 5px;
+  font-weight: 1;
+  font-size: 12px;
+}
+#ip1.t1 {
+  margin-top: 140px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.p2 {
+  background: red;
+  padding: 5px;
+  font-weight: 1;
+  font-size: xx-large;
+  color: white;
+}
+audio {
+  display: none;
+}
+.imgn {
+  width: 100px;
+  height: 40px;
+  border: 3px solid white;
+  margin-top: 5px;
+}
