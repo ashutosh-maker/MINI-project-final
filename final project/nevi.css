@@ -1,0 +1,29 @@
+body,
+html {
+  margin: 0px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.q1 {
+  background: black;
+  color: white;
+  font-size: x-large;
+  display: flex;
+  height: 30px;
+  justify-content: space-around;
+}
+a:hover {
+  background-color: red;
+  color: white;
+}
+a#mod3:hover {
+  background-color: black;
+}
+
+.idiot:hover {
+  color: red;
+  font-size: x-large;
+  border: red 2px dotted;
+}
